@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales manager work plan submission</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <h1>Sales Manager Work Plan Submission</h1>
+    <form id="workPlanForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      
+      <label for="location">Location:</label>
+      <input type="text" id="location" required>
+      
+      <label for="region">Region:</label>
+      <input type="text" id="region" required>
+      
+      <label for="date">Date:</label>
+      <input type="text" id="date" readonly>
+      
+      <label for="activity">Activity:</label>
+      <textarea id="activity" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+    
+    <div id="submissionTracker">
+      <p id="submissionCount">0 people have submitted their work plans.</p>
+      <p id="timeStamp"></p>
+    </div>
+<script src="./project.js"></script>
+</body>
+</html>

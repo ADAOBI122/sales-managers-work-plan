@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+form{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],textarea{
+    width: 100%;
+    padding: 5px;
+
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+#submissionTracker{
+    margin-top: 20px;
+}
+
+#submissionCount{
+    font-weight: bold;
+}
+
+#timeStamp{
+    font-style: italic;
+}
